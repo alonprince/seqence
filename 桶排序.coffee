@@ -14,8 +14,5 @@ arr[i]++ for i in test
 # 倒着循环打印出数据
 for item, i in arr by -1
 	if item isnt 0
-		j = 0
-		while j < item
+		for j in [0...item]
 			console.log i
-			j++
-	i--
