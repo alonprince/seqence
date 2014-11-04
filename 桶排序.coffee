@@ -12,11 +12,10 @@ while i < arr.length
 # 循环被测试数组,以出现的数字为下标，+1
 arr[i]++ for i in test
 # 倒着循环打印出数据
-i = arr.length - 1 
-while i >= 0
-	if arr[i] isnt 0
+for item, i in arr by -1
+	if item isnt 0
 		j = 0
-		while j < arr[i]
+		while j < item
 			console.log i
 			j++
 	i--
