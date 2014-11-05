@@ -7,3 +7,4 @@
 * 桶排序.coffee
 * 桶排序.js  
 * 冒泡排序.coffee
+* 快速排序.coffee
